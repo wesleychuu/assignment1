@@ -1,3 +1,7 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -82,7 +86,6 @@ a:link {
 
 .home {
     font-size: 1.5rem;
-    line-height: 50px;
     display: flex;
     flex-direction: column;
     font-size: xx-large;
