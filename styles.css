@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-
 }
 
 
@@ -30,13 +29,6 @@ body {
     justify-content: space-evenly;
 }
 
-
-
-h1 {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
 p {
     text-align: center;
 }
@@ -47,6 +39,8 @@ p {
     clear: both;
     
 }
+
+
 
 .column {
     float: left;
@@ -66,7 +60,30 @@ p {
     background-color: #9ccfd8;
 }
 
-.contact {
-    background-color: #c4a7e7;
-    
+.contactpage {
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+a {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: large;
+    color: #1f1d2e;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #1f1d2e;
+}
+
+.home {
+    font-size: 1.5rem;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
 }
