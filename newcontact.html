@@ -9,6 +9,7 @@
     <title>Contacts</title>
 </head>
 <body>
+
     <div class="row">
         <div class="column left">
             <h1><a href="index.html" class="home">Contacts</a></h1>
@@ -17,8 +18,32 @@
         </div>
         
         <div class="column right contactpage">
-            <img src="images/contact.png" alt="contact image" style="width:15%;height:15%">
+            <ul>
+                <img src="images/contact.png" alt="contact image" style="width:15%;height:15%">
+                <li>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Name">
+                </li>
+                <li>
+                    <label for="PhoneNumber"></label>
+                    <input type="tel" id="PhoneNumber" placeholder="Phone Number">
+                </li>
+                <li>
+                    <label for="address"></label>
+                    <input type="text" name="address" id="address" placeholder="Address">
+                </li>
+                <li>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    
+                </li>
+                <li>
+                    <input type="submit" value="Submit" id="submit">
+                    <input type="button" value="Cancel" id="cancel">
+                </li>
+            </ul>
         </div>
     </div>
+
 </body>
 </html>
