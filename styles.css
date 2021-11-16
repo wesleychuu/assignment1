@@ -1,5 +1,6 @@
 * {
     font-family: 'Nunito', sans-serif;
+    color: #1f1d2e;
 }
 
 body {
@@ -19,11 +20,12 @@ body {
     margin: 20px;
     text-align: center;
     font-size: 1.25rem;
-  }
+    padding: 20px;
+}
 
 .column div{
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 120px;
 }
 
 .flex-container {
@@ -33,16 +35,7 @@ body {
     justify-content: space-evenly;
 }
 
-p {
-    text-align: center;
-}
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-}
 
 ul {
     list-style-type: none;
@@ -70,12 +63,22 @@ li {
     background-color: #e0def4;
 }
 
-.contactpage {
+.defaultpage {
     box-sizing: border-box;
-    padding: 40px;
+    padding-left: 80px;
+    padding-top: 40px;
 }
 
 a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555169;
+    text-decoration: none;
+}
+
+a.sidebarlink {
     list-style-type: none;
     align-items: center;
     display: flex;
@@ -85,14 +88,22 @@ a {
     color: #1f1d2e;
 }
 
-a:link {
-    text-decoration: none; 
-    color: #1f1d2e;
+.sidebarlink:hover, .home:hover {
+    color: #555169;
+    text-decoration: none;
 }
 
 .home {
-    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     font-size: xx-large;
+    align-items: center;
+    text-decoration: none;
+}
+
+.plussign {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    text-align: center;
 }
